@@ -1,0 +1,197 @@
+<!Doctype html>
+<head>
+<Title> PLuto</Title>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    .navbar{
+        display: flex;
+        padding: 10px;
+        background-color: rgb(37, 186, 241);
+        position: sticky;
+        top: 0px;
+        /* border: 2px solid red; */
+        /* margin: 0px 20px; */
+    }
+    .navbar img{
+        height: 70px;
+        width: 70px;
+    }
+    .heading{
+        margin-left: 600px;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid rgb(79, 79, 4); */
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+    .content{
+        box-shadow: 2px 2px 20px black;
+        border-radius: 15px;
+        border-bottom: 4px solid  aqua;
+        background-color: rgb(246, 244, 241);
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        /* width: auto; */
+        /* height: auto; */
+        /* padding: 10px; */        
+    }
+    .content h1{
+        font-size: 35px;
+        width: auto;
+        margin: 10px 0px;
+    }
+    .content .about{
+        padding: 10px;
+        text-align:justify;
+        margin: 10px 0px;
+        font-size: 25px;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid rgb(138, 14, 134); */
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+        
+    }
+    .part2 video{
+        margin: 20px 0px;
+        height: 400px;
+        width: 600px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 20px black;
+    }
+    .content2 h1{
+        margin: 20px 0px;
+        font-size: 30px;
+        /* color: aqua;  */
+    }
+    .content2{
+        box-shadow: 2px 2px 20px black;
+        border-radius: 15px;
+        border: 4px solid  aqua;
+        background-color: rgb(246, 244, 241);
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        /* width: auto; */
+        /* height: auto; */
+    }
+    .part3{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid rgb(138, 14, 134); */
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+        
+    }
+    .content3{
+        box-shadow: 2px 2px 20px black;
+        border-radius: 15px;
+        /* border: 4px solid  aqua; */
+        background-color: rgb(246, 244, 241);
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: auto;
+        /* width: auto; */
+    }
+    .content3 h1{
+        margin: 20px 0px;
+        font-size: 30px;
+        /* color: aqua;  */
+    }
+    .content3 img{
+        margin: 20px 0px;
+        height: auto;
+        color: aqua;
+        background-color: rgb(0, 0, 0);
+        width: 600px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 20px black;
+
+    }
+    .content3 a{
+        margin: 20px 0px;
+        padding: 10px;
+        font-weight: bolder;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: rgb(8, 49, 174);
+        box-shadow: 2px 2px 20px black;
+    }
+    @media only screen and (max-width: 1100px){
+        .heading{
+         margin-left: 350px;
+        }
+
+    }
+</style>
+
+</head>
+<body>
+    <nav>
+        <nav  class='navbar'>
+            <img  src="logo.png">
+            <div class="heading">Virtual Assistant</div>
+    </nav>
+    <section class="part1">
+      <div class="content">
+           <h1>Pluto Personal Assistant</h1>
+           <div class="about">
+            Pluto assistant is a personal assistant like cortana that recognise our voice and perform the 
+            different types of task which s implented to it.  
+            This project implented only in the python programming language.
+            Pluto will accept  the  voice of the user and solve their problems by showing them 
+            and speaking them the required results that users want.  
+            <br>
+            The objective of this project is to enable computers to perform such intellectual tasks as decision making , problem solving,
+             perception understanding human communication.<br>
+             To replace human efforts from<br>
+             1. Repetitive tasks<br>
+              2. Human life critical life like NASA mission<br>
+              3.  Making health care doman more effcient.<br> 
+           </div>
+      </div>
+    </section>
+    <section class="part2">
+      <div class="content2">
+           <h1>Lets have look into this</h1>
+           <video controls="controls">
+            <source src="pluto.mp4" type="video/mp4">
+           </video>
+      </div>
+    </section>
+    <section class="part3">
+      <div class="content3">
+           <h1>Code Snippets available on Github Repository below image</h1>
+           <img src="pluto.png">
+           <a href="#">pluto.py</a>
+      </div>
+    </section>
+</body>
+</html>
